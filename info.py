@@ -49,14 +49,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8f9bb816597c9f7d3dad6aea4841489429bfc6c1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Seturl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'df9770eced16f25d8d353cea11addd9d40aba8f2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+bxd4EcEh6iZhMzll')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+AT8PMERSstNhNTc1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+FC6_crPPIuIwY2I1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+QYi9vB9lwR5iMzVl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
