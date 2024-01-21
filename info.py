@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Seturl.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'seturl.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'df9770eced16f25d8d353cea11addd9d40aba8f2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
@@ -80,7 +80,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-LANGUAGES = ["tamil", "tam" , "telugu", "tel", "hindi", "hin", "english", "eng", "kannada", "kan", "malayalam", "mal", "korean", "kor", "japanese", "jap", "spanish", "span", "german", "ger", "chinese", "chi"]
+LANGUAGES = ["tamil", "tam" , "telugu", "tel", "hindi", "hin", "english", "eng", "kannada", "kan", "malayalam", "mal", "korean", "kor", "japanese", "jap", "spanish", "span", "german", "ger", "chinese", "chi", "Multi"]
 
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10", "season 11" , "season 12" , "season 13", "season 14" , "season 15" , "season 16", "season 17" , "season 18" , "season 19", "season 20" ]
 
