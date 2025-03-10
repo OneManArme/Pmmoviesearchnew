@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/8b3544d2e46bba3e2967d.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/734a6ca9e30983956c072.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/9f8ee88fd43ae2930d34e.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://vault.pictures/p/03948bcb5de34b45b5a9f255d0d9dd0b")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -49,20 +49,20 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'seturl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'df9770eced16f25d8d353cea11addd9d40aba8f2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4b9a5c4ec70d6c8ea908aa26241fa53f4920f91a')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+AT8PMERSstNhNTc1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GXvkUPWf5A9jYTM1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+FC6_crPPIuIwY2I1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+QYi9vB9lwR5iMzVl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+18_cKy0dPbMzMjU1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+GXvkUPWf5A9jYTM1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
